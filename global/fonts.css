@@ -4,7 +4,7 @@
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
-    src: url('/fonts/rubik-v28-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('assets/fonts/rubik-v28-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
   
   /* rubik-500 - latin */
@@ -13,7 +13,7 @@
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 500;
-    src: url('/fonts/rubik-v28-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('assets/fonts/rubik-v28-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
   
   /* rubik-700 - latin */
@@ -22,6 +22,14 @@
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 700;
-    src: url('/fonts/rubik-v28-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('assets/fonts/rubik-v28-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
-  
+  :root {
+    --fs-xxsm:0.875rem;/*14*/
+    --fs-xsm:1rem;/*16*/
+    --fs-sm:1.125rem;/*18*/
+    --fs-md:1.25rem;/*20*/
+    --fs-lg:1.563rem;/*25*/
+    --fs-xl:2.188rem;/*35*/
+    --fs-xxl:3.125rem;/*50px*/
+  }

@@ -1,12 +1,2 @@
-:root{
-    --white:hsl(0,0%,100%);
-    --bold:hsl(225,58%,10%);
-    --medium:hsl(221,12%,25%);
-    --color-button:hsl(0,90%,59%);
-    --color-signup:hsl(351,90%,59%);
-    font-family: rubric;
-    margin: 0;
-    max-width: 100%;
-    height: auto;
-
-}
+@import url('/global/boilerplate.css');
+@import url('/global/fonts.css');
