@@ -1,10 +1,10 @@
 :root{
     --white:hsl(0,0%,100%);
     --bold:hsl(225,58%,10%);
-    --medium:hsl(219,12%,25%);
+    --medium:hsl(219,12%,35%);
     --color-button:hsl(0,90%,59%);
     --color-signup:hsl(351,90%,59%);
-
+    --color-line: hsl(225, 13%, 94%);
 }
 
 *, *::before, *::after {
