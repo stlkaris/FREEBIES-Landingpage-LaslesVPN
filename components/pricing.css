@@ -29,12 +29,12 @@
 .plan-container{
     width: 330px;
     height: 760px;
-    background-color: var(--color-white);
     border-radius: 10px;
+    background-color: var(--white);
     border: 2px #DDDDDD solid;
     margin-top: 55px;
     margin-bottom: 50px;
-}
+} 
 
 .plan-container .main-img{
     margin: 0 auto;
@@ -45,7 +45,7 @@
     text-align: center;
     margin-top: 30px;
     font-size: var(--fx-sm);
-    font-weight: 500;
+    font-weight: 700;
     color: var(--color-bold);
     line-height: 30px;
 }
@@ -58,6 +58,7 @@
     text-align: center;
     margin-left: 25px;
     margin-right: 57px;
+    font-size: var(--fs-xxsm);
 }
 
 .plan-container h2 {
